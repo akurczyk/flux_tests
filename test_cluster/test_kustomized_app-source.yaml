@@ -5,7 +5,7 @@ metadata:
   name: test-kustomized-app
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 1m0s
   ref:
     branch: master
   url: https://github.com/akurczyk/flux_tests
