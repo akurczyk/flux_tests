@@ -7,5 +7,6 @@ spec:
   - port: 80
     targetPort: 8080
     protocol: TCP
+    nodePort: 30555
   selector:
     app: kuard
