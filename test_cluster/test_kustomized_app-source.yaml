@@ -2,10 +2,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: test-app
+  name: test-kustomized-app
   namespace: flux-system
 spec:
   interval: 30s
   ref:
     branch: master
-  url: https://github.com/akurczyk/flux_tests/test_app
+  url: https://github.com/akurczyk/flux_tests
